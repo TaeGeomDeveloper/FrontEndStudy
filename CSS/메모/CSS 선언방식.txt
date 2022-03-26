@@ -1,0 +1,41 @@
+
+CSS 선언 방식
+
+1. 내장 2. 링크 3. 인라인 4.import
+
+
+
+1. 내장방식
+<style></style>의 내용으로 스타일을 작성하는 방식
+<style>
+	div{
+	}
+</style>
+
+2. 인라인 방식
+요소의 style 속성에 직접 스타일을 작성하는 방식
+
+<div style = "color : red; margin: 20px;> </div>
+
+
+3. 링크 방식
+<link> 로 외부 css문서를 가져와서 연결하는 방식
+
+<link rel = "stylesheet" href="./css/main.css">
+
+
+4. import 방식
+CSS import 규칙으로 CSS문서 안에서 또다른 CSS문서를 가져와 연결하는 방식
+
+@import url("./box.css");
+
+
+
+
+
+
+
+
+
+
+
