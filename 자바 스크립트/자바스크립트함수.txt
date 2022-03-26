@@ -1,0 +1,36 @@
+크롬(about:blank)
+Ctrl + Shift + J (콘솔창)
+
+1. 입력값 받기
+prompt("이름을 입력하세요 : ");
+
+2. 알림 창으로 출력하기
+alert("환영합니다.");
+
+3. 웹브라우저 화면에 출력하기
+document.write() 함수
+
+4. 콘솔에 출력하기
+console.log() 함수
+
+5. 프롬프트 창에 입력받은 값을 정수로 바꾸는 함수
+Number()
+
+
+
+5.  (querySelector)ID 값이 result인 태그("#result")를 선택하고 HTML에 삽입한다. 
+document.querySelector("#result").innerHTML ="당신의 나이는 "+age+" 세입니다.";
+
+
+6. Display Area
+var displayArea = document.querySelector('#result');
+
+[ES6] For of문
+for(let value of String) { console.log(value); }
+
+
+
+
+
+
+
