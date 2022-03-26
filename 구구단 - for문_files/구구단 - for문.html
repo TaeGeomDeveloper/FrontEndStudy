@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:5500/gugudan.html -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>구구단 - for문</title>
+	<link rel="stylesheet" href="./구구단 - for문_files/gugudan.css">
+</head>
+<body>
+	<h1>구구단</h1>
+	<script>
+			for(var i =1; i <= 9; i++){
+				document.write("<div>");	// 태그 감싸기
+				document.write("<h3>"+i+"단</h3>");
+				for(var j = 1; j<= 9; j++){
+					document.write(i+"X"+j+" = "+ i*j + "<br>");
+				}
+				document.write("</div>");
+			}
+	</script><div><h3>1단</h3>1X1 = 1<br>1X2 = 2<br>1X3 = 3<br>1X4 = 4<br>1X5 = 5<br>1X6 = 6<br>1X7 = 7<br>1X8 = 8<br>1X9 = 9<br></div><div><h3>2단</h3>2X1 = 2<br>2X2 = 4<br>2X3 = 6<br>2X4 = 8<br>2X5 = 10<br>2X6 = 12<br>2X7 = 14<br>2X8 = 16<br>2X9 = 18<br></div><div><h3>3단</h3>3X1 = 3<br>3X2 = 6<br>3X3 = 9<br>3X4 = 12<br>3X5 = 15<br>3X6 = 18<br>3X7 = 21<br>3X8 = 24<br>3X9 = 27<br></div><div><h3>4단</h3>4X1 = 4<br>4X2 = 8<br>4X3 = 12<br>4X4 = 16<br>4X5 = 20<br>4X6 = 24<br>4X7 = 28<br>4X8 = 32<br>4X9 = 36<br></div><div><h3>5단</h3>5X1 = 5<br>5X2 = 10<br>5X3 = 15<br>5X4 = 20<br>5X5 = 25<br>5X6 = 30<br>5X7 = 35<br>5X8 = 40<br>5X9 = 45<br></div><div><h3>6단</h3>6X1 = 6<br>6X2 = 12<br>6X3 = 18<br>6X4 = 24<br>6X5 = 30<br>6X6 = 36<br>6X7 = 42<br>6X8 = 48<br>6X9 = 54<br></div><div><h3>7단</h3>7X1 = 7<br>7X2 = 14<br>7X3 = 21<br>7X4 = 28<br>7X5 = 35<br>7X6 = 42<br>7X7 = 49<br>7X8 = 56<br>7X9 = 63<br></div><div><h3>8단</h3>8X1 = 8<br>8X2 = 16<br>8X3 = 24<br>8X4 = 32<br>8X5 = 40<br>8X6 = 48<br>8X7 = 56<br>8X8 = 64<br>8X9 = 72<br></div><div><h3>9단</h3>9X1 = 9<br>9X2 = 18<br>9X3 = 27<br>9X4 = 36<br>9X5 = 45<br>9X6 = 54<br>9X7 = 63<br>9X8 = 72<br>9X9 = 81<br></div>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
