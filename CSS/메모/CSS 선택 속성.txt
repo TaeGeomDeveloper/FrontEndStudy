@@ -1,0 +1,13 @@
+[ABC] 속성 선택자
+
+[disabled] {
+	color: red;
+}
+
+[type = "password"] {
+	color : red;
+}
+
+
+
+

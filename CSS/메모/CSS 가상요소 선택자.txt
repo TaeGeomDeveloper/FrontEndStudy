@@ -1,0 +1,14 @@
+
+ABC::before	가상 요소 선택자
+		선택자 ABC 요소의 내부 앞에 내용을 삽입.
+
+box::before{
+	content: "앞!";
+}
+
+ABC::after	가상 요소 선택자
+		선택자 ABC 요소의 내부 뒤에 내용을 삽입.
+
+box::after{
+	content: "뒤!";
+}
