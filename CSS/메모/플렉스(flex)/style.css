@@ -1,0 +1,82 @@
+/*
+  display
+  
+  flex 블록 요소와 같이 Flex Container 정의
+  inline-flex 인라인 요소와 같이 Flex Container 정의
+
+  < 주축을 설정 >
+  flex-direction
+  row             행 축
+  row-reverse     행 축
+  column
+
+
+  items 묶음(줄바꿈) 여부
+  <flex-wrap>
+  no wrap 줄바꿈 없음
+  wrap 여러줄로 묶음
+
+
+  주축의 정렬 방법
+  justify-content
+
+  flex-start            Flex Items를 시작점으로 정렬
+  flex-end              Flex items를 끝점으로 정렬
+  center                Flex Items 를 가운데 정렬
+
+
+  교차 축의 여러줄 정렬 방법
+  align-content
+  stretch                flex items를 시작점으로 정렬
+  flex-start             Flex items를 시작점으로 정렬
+  flex-end               flex items를 끝점으로 정렬
+  center                 flex items를 가운데 정렬
+
+
+  한줄 정렬 방법
+  align-item
+
+
+  Flex item의 순서
+  order                 [숫자] 작을수록 앞에 정렬된다.
+
+
+  증가 너비 비율 
+  flex-grow             [숫자] 증가 너비 비율        
+
+
+  감소 너비 비율
+  flex-shrink           [숫자] 감소 너비 비율
+
+
+  공간 배분 전 기본 너비
+  flex-basis            요소의 content 너비
+
+*/
+
+.container{
+  width: 1000px;
+  height: 800px;
+  background-color: royalblue;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+
+  border: 3px dashed red;
+  background-color: orange;
+
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.container .item:nth-child(3){
+  flex-grow: 2;
+ 
+}
+

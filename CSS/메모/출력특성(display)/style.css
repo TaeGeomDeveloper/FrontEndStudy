@@ -1,0 +1,25 @@
+/*  
+      < display > 
+
+      block 상자 요소
+      inline 글자 요소
+      inline 글자 + 상자요소
+
+      flex 플렉스 박스
+      grid 그리드
+      none 보여짐 특성 없음, 화면에서 사라짐
+*/
+
+body {
+  margin:20px;
+
+}
+
+span{
+  display:block;
+  width:120px;
+  height:30px;
+
+  background-color: royalblue;
+  color: white;
+}

@@ -1,0 +1,15 @@
+.parents{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.child{
+  width: 100px;
+  height: inherit;
+  background-color: red;
+
+  position: fixed;
+  top: 100px;
+  right: 10px;
+}

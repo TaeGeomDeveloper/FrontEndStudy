@@ -1,0 +1,36 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+
+  /* 전환 효과 */
+  transition: 1s .25s;
+
+
+  /* 
+     transition-timing-function
+
+     ease               느리게 - 빠르게 - 느리게
+     linear             일정하게
+     ease-in            느리게 - 빠르게
+     ease-out           빠르게 - 느리게
+     ease-in-out        느리게 - 빠르게 - 느리게
+
+    대기시간
+     transition-delay
+  */
+
+}
+
+
+div:hover {
+  width: 200px;
+  background-color: royalblue;
+
+}
+
+
+div:active{
+  width: 300px;
+  background-color: green;
+}

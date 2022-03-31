@@ -1,0 +1,56 @@
+body{
+  padding: 50px;
+}
+
+.container{
+  width: 100px;
+  height: 100px;
+
+  background-color: royalblue;
+  perspective: 250px;
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+
+  font-size: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transform: rotateY(45deg);
+
+  /* 변환 함수 */
+  /* transform: perspective(300px) rotateX(45deg) translateX(50px);*/
+}
+
+
+/* 
+      2D 변환 함수
+
+      translate(x,y)        이동
+      translateX(x)         이동 x
+      translateY(y)         이동 y
+      scale(x,y)            크기 x y
+
+      rotate(degree)        회전(각도)
+      skewX(x)              기울임
+      skewX(x)
+*/
+
+/* 
+    3D 변환 함수
+
+    perspective(n)  원근법(거리)
+    rotateX(x)      회전(x축)    
+    rotateY(y)      회전(y축)
+
+
+    perspective: 600px;             관찰 대상의 부모    perspective-orgin
+    transform: perspective(600px)   관찰 대상          transform-orgin
+
+    backface-visibilty: hidden;
+*/

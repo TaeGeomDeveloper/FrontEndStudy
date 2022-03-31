@@ -1,0 +1,17 @@
+div{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  margin: 20px;
+
+  /* 
+    border-radius
+    모서리를 반지름 만큼 깍아낸다.
+  
+  */
+
+  border-radius: 20px;
+
+
+  
+}

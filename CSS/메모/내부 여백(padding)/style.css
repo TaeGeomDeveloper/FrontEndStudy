@@ -1,0 +1,14 @@
+.container .item {
+
+  width: 100px;
+  height: 100px;
+
+  background-color: orange;
+  /* 테두리선 */
+  border: 4px solid red;
+}
+
+.container .item:first-child{
+  /* 내부 여백 추가 */
+  padding : 20px;
+}

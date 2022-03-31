@@ -1,0 +1,27 @@
+/*  
+    글꼴 
+
+    font-style
+    font-family
+    line-height
+*/
+
+
+h1{
+  font-size: 48px;
+  font-weight: 700;
+  font-style: italic;
+  font-family: serif;
+
+}
+
+p{
+  font-size: 16px;
+  width: 350px;
+  padding: 10px;
+  border: 1px solid;
+  box-sizing: border-box;
+
+  /*  */
+  line-height: 2;
+}

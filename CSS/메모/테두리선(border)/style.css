@@ -1,0 +1,17 @@
+.container .item{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+.container .item:first-child{
+
+  /*  테두리선 border
+
+      border-width / border-style / border-color
+                    none 선없음       색상
+                    solid 실선        transport (투명)
+                    dashed 파선
+  */
+  border: 10px solid orange;
+}

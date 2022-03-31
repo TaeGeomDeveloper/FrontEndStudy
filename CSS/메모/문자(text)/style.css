@@ -1,0 +1,21 @@
+a{
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+
+  font-size: 22px;
+  color: white;
+
+  /* 문자의 장식(선) */
+  text-decoration: none;
+
+  /* 문자 정렬 */
+  text-align: center;
+  line-height: 100px;
+
+  /* 
+  text-indent: 50px; 50픽셀 만큼 들여쓰기
+  
+  */
+}

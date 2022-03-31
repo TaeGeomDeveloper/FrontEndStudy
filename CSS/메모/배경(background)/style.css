@@ -1,0 +1,26 @@
+div {
+  width: 360px;
+  height: 360px;
+
+  background-color: green;
+  background-image: url("https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/125780653_188586126147883_6294315134985798817_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=104&ccb=1-5&_nc_sid=9e2e56&_nc_ohc=WVedBoitDwYAX_VAB28&_nc_ht=scontent-ssn1-1.xx&oh=00_AT_x0n6G_RivbppTdTLbaOF9HNCklCXkcnGyH-FfM3MXDA&oe=62674AB2");
+
+  /*
+
+  background-size 배경 이미지 크기 조절
+                  cover 는 화면크기에 자동으로 맞춰준다. 
+
+  background-repeat 이미지 반복
+
+  background-position 위치
+
+  background-attachment 
+  scroll 스크롤
+  fixed 고정 시키기
+  */
+
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}

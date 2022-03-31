@@ -1,0 +1,11 @@
+.container{
+
+}
+.container .item{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+
+  /* 외부 여백 만들기 */
+  margin: 10px 20px 30px 40px;
+}
